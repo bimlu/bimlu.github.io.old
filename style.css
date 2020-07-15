@@ -1,0 +1,43 @@
+html, body {
+    max-width: 700px;
+    max-height: 700px;
+    background: #fee;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.title{ font-size: 24px; font-family: monospace; 
+    color: darkred; text-shadow: 8px 3px 20px black;}
+.board { margin: auto; max-width: 650px; max-height: 650px;}
+.tableSimple { margin: auto; max-width: 600px; max-height: 600px;
+    border-spacing: 1px; border-collapse: collapse;
+    border: 6px solid grey;}
+.tableBorderd { margin: auto; max-width: 600px; max-height: 600px;
+    border-spacing: 1px; border-collapse: inherit;
+    border: 6px solid grey; }
+.controls { margin-top: 20px; }
+.sliders {}
+
+label[for="speed"] { font-size: 18px; font-family: monospace; 
+    padding-right: 70px; }
+.seedDiv { font-size: 18px; font-family: monospace; }
+input[type="range"] { color: black; margin-top: 8px;
+    box-shadow: inset 20px 17px 20px 20px #dcb1e0;}
+
+button { background: #555;color: white; padding: 5px;
+    border: 1px solid black;font-family: monospace; 
+    box-shadow: 5px 2px 20px 3px black;
+    text-shadow: 5px 4px 20px black; }
+
+button.start { margin:0 8px; }  
+button.stop { margin:0 8px; }
+button.clear { margin:0 8px; }
+button.view { margin:0 8px; }
+button.size2X {margin:0 8px;}
+
+td.alive { background: #eee; width: 32px;
+    height: 32px; }
+td.dead { background: #333; width: 32px;
+    height: 32px; }   
