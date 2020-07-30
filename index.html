@@ -1,43 +1,32 @@
 <html>
 <head>
-    <title>The Game</title>
-    <link rel="stylesheet" href="style.css">
+    <title>The Cat</title>
+    <style>
+    body {
+    	text-align: center;
+    }
+
+	img {
+		border: 2px solid #aaa;
+	    border-radius: 8px;
+	    display: block;
+	    margin: auto;
+	    width: 320px;
+	    height: 400px;
+	    filter: hue-rotate(90deg);
+	}
+
+	a {
+		display: inline-block;
+		text-align: center;
+	}
+</style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <p class="title">Conway's Game of Life</p>
-    <div class="board"></div>
-
-    <div class="controls">
-        <button class="start">Start</button>
-        <button class="stop">Stop</button>
-        <button class="clear">Clear</button>
-        <button class="view">View</button>
-        <button class="size2X">2X</button>
-    </div>
-
-    <br>
-
-    <div class="sliders">
-        <label for="speed">SPEED:</label>
-        <input type="range" name="speed" min="1" max="10"  value="5" step="1">
-        <br>
-        <div class="seedDiv">
-            <label for="seed">INITIAL SEED:</label>
-            <select name="seed">
-                <option value="glider">Glider</option>
-                <option value="deadAll">Dead Planet</option>
-                <option value="aliveAll">Inverted Universe</option>
-            </select>
-        </div>
-    </div>
-
-    <div class="info">
-        <p><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">GAME RULES</a></p>
-    </div>
-
-    <script src="script.js"></script>
-
+	<img src="cat.jpg" alt="Cat">
+	<br>
+	<!-- <a href="https://photos.app.goo.gl/WrKeL9aiy2dJSb327">Kitty</a> -->
 </body>
 </html>
