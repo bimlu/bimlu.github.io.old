@@ -1,32 +1,76 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-    <title>The Cat</title>
-    <style>
-    body {
-    	text-align: center;
-    }
-
-	img {
-	    border: 2px solid #aaa;
-	    border-radius: 8px;
-	    display: block;
-	    margin: 40px auto;
-	    width: 320px;
-	    height: 400px;
-	    filter: hue-rotate(90deg);
-	}
-
-	a {
-		display: inline-block;
-		text-align: center;
-	}
-</style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
 </head>
 
 <body>
-	<img src="cat.jpg" alt="Cat">
-	<br>
-	<!-- <a href="https://photos.app.goo.gl/WrKeL9aiy2dJSb327">Kitty</a> -->
+    <p class="title">THE SNAKE</p>
+    <div class="board"></div>
+
+    <div class="message"></div>
+
+    <div class="control">
+        <button class="userGame">Play</button>
+        <button class="chBot">ch-Bot</button>
+        <button class="mcBot">mc-bot</button>
+        <button class="reset">Reset</button>
+        <button class="mccBot">mcc-bot</button>
+    </div>
+
+    <table class="info">
+        <thead>
+            <th>STATS</th>
+            <th>VALUE</th>
+            <th>UNIT</th>
+        </thead>
+        
+        <tr class="score">
+            <td>FOOD-EATEN</td>
+            <td id="foodEaten"></td>
+            <td>(<i>number</i>)</td>
+        </tr>
+
+        <tr>
+            <td>EATING-SPEED</td>
+            <td id="eatingSpeedT"></td>
+            <td>(<i>sec/food</i>)</td>
+        </tr>
+
+        <tr>
+            <td>EATING-SPEED</td>
+            <td id="eatingSpeedD"></td>
+            <td>(<i>cell/food</i>)</td>
+        </tr>
+
+        <tr>
+            <td>TIME-ELAPSED</td>
+            <td id="timeElapsed"></td>
+            <td>(<i>seconds</i>)</td>
+        </tr>
+
+        <tr>
+            <td>TRAVELLED</td>
+            <td id="distanceTravelled"></td>
+            <td>(<i>cell</i>)</td>
+        </tr>
+        <tr class='score'>
+            <td>ACCURACY</td>
+            <td id="accuracy"></td>
+            <td>(<i>%</i>)</td>
+        </tr>
+
+    </table>
+
+    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="graph.js"></script>
+    <script type="text/javascript" src="bot.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
 </body>
+
 </html>

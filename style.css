@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    font-size: 16px;
+    font-family: monospace;
+    background-color: #586579;;
+}
+
+p.title { font-size:18px; 
+		color: lightgreen; }
+
+table.table { border:1px solid grey;
+	border: groove;
+    margin:0 auto; box-shadow: 4px 3px 20px 1px #272f2c;}
+
+table.table > tr > td {
+	width: 8px;
+	height: 8px;
+	border: dashed;
+}
+
+td.foodCell { background:#9ce39c; }
+td.headCell { background:#eae7ed;}
+td.tailCell { background:#94c9d6; }
+td.groundCell { background:#974658; }
+
+table.info {
+	color: lightgreen;
+    margin: auto;
+    width: auto;
+    text-align: left;
+    font-size: 12px;
+}  
+
+table.info thead {
+	color: black;
+}
+
+tr.score td{
+	color: cyan;
+}
+
+table.info td {
+	padding-right: 16px;
+}
+
+button { font-family:monospace;
+		border: 1px solid black;
+		border-radius: 6px;
+		padding:4px;
+		font-weight: bold;
+		color: teal;
+	 	box-shadow: 2px 3px 20px 0px black;}
+
+
+div.control { margin:16px 8px; }
+
+div.message {
+	color: orange;
+	font-size: 12px;
+}
