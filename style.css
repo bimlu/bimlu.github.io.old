@@ -49,12 +49,13 @@ button { font-family:monospace;
 		padding:4px;
 		font-weight: bold;
 		color: teal;
-	 	box-shadow: 2px 3px 20px 0px black;}
+	 	box-shadow: 5px 1px 10px 1px black;}
 
 
-div.control { margin:16px 8px; }
+div.control { margin:10px 10px; }
 
 div.message {
 	color: orange;
 	font-size: 12px;
+	padding-top: 8px;
 }
