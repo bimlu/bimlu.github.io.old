@@ -272,7 +272,7 @@ class Game {
             
                 let message = document.querySelector('div.message');
                 message.innerHTML = `Crashed! <span style="color:lightgreen;
-                font-size:20px">&#128546</span>
+                font-size:20px">&#128580</span>
                  FOOD: <span style="color: 
                 cyan;">${this.foodEaten}</span> ACCURACY: <span style="color:
                  cyan;">${this.accuracy}</span><i>%</i>.`;
