@@ -54,6 +54,8 @@ button { font-family:monospace;
 
 div.control { margin:10px 10px; }
 
+a { color: white; }
+
 div.message {
 	color: orange;
 	font-size: 12px;
